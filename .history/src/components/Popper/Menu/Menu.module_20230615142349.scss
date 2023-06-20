@@ -1,0 +1,46 @@
+.menu-items {
+    width: 224px;
+    .more-btn-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: start;
+        margin: 0;
+        color: rgb(22, 24, 35);
+        padding: 10px 8px 10px 16px;
+        font-weight: 500;
+        &:hover {
+            background: rgba(22, 24, 35, 0.03);
+        }
+        + .more-btn-item {
+            margin-left: 0;
+        }
+    }
+}
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+.btn-back {
+    font-size: 3rem;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title {
+    font-size: 1.6rem;
+}
+
+.wrapper-item {
+    max-height: 590px;
+    overflow-y: auto;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    border-bottom: solid 1px rgba(22, 24, 35, 0.06);
+    border-top: solid 1px rgba(22, 24, 35, 0.06);
+    padding: 16px 0;
+    width: 100%;
+    color: rgba(22, 24, 35, 0.75);
+}
+.title {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.see-more {
+    color: var(--primary);
+}

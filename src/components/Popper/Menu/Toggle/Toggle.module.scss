@@ -1,0 +1,24 @@
+.toggle{
+    width: 44px;
+    height: 24px;
+    background: rgba(22, 24, 35, 0.12);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.active-toggle{
+    background: rgb(11, 224, 155);
+}
+.spinner{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    border-radius: 100px;
+    background-color: var(--white);
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+.active-spinner{
+    transform: translateX(20px);
+    margin-right: 2px;
+}

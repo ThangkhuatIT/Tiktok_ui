@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0 20px 0 20px;
+    top: 60px;
+}
+.content {
+    flex: 1;
+    height: 100000px;
+    overflow-y: auto;
+}

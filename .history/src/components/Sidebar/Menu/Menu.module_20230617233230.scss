@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.Menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding: 8px;
+}
+.title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 32px;
+}
